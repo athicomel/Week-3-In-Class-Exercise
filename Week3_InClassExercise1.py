@@ -15,7 +15,7 @@ class Shape3D(ABC):
     # TODO: Write code for describe method. You can simply print out the instance\'92s class name and its parameter(s).
     def describe(self):
         print(f'this is a {self.__class__.__name__}')
-        print(f'and its parameters, list(self.__dict__.keys()))
+        print(f'and its parameters,' list(self.__dict__.keys()))
 
 # TODO: Write code for subclass Cube.
 class Cube(Shape3D):
